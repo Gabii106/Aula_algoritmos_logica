@@ -1,25 +1,23 @@
-// Lista 2 - Exercício 7
+// Lista 3 - Exercício 8
 
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro v1, v2
-		escreva("Informe um valor: ")
-		leia(v1)
-		escreva("Informe outro valor: ")
-		leia(v2)
+		inteiro num,v,valor
+		num=0
 
-		se (v1 > v2) 
-			{
-				escreva("O maior valor é: ",v1)
-			}
-		senao
-			{
-				escreva("O maior valor é: ",v2)
-			}
+		para(v=1;v<=10;v++){
+			escreva("Informe um valor: ")
+			leia(valor)
 
+			se(valor<0){
+				num++
+			}
+		}
+
+		escreva("Foram informados ",num," números negativos")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,9 +25,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 260; 
+ * @POSICAO-CURSOR = 24; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {v1, 8, 10, 2}-{v2, 8, 14, 2};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

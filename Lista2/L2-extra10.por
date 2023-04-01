@@ -1,3 +1,5 @@
+// Lista 2 - Extra 10
+
 programa
 {
 	
@@ -30,9 +32,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 302; 
+ * @POSICAO-CURSOR = 21; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {a1, 6, 7, 2}-{a2, 6, 11, 2}-{media, 6, 15, 5};
+ * @SIMBOLOS-INSPECIONADOS = {a1, 8, 7, 2}-{a2, 8, 11, 2}-{media, 8, 15, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
