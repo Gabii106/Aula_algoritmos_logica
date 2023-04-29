@@ -5,10 +5,11 @@ programa
 	
 	funcao inicio()
 	{
+		inteiro num=10
 		
-		inteiro num
-		para(num=10;num>=1;num--){
+		enquanto(num>=1){
 			escreva(num," ")
+			num--
 		}
 	}
 }
@@ -17,9 +18,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 10; 
+ * @POSICAO-CURSOR = 115; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {num, 8, 10, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

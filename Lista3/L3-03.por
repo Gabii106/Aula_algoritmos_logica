@@ -5,10 +5,10 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num
-		escreva("Os dez primeiros números inteiros maiores que cem são: ")
-		para(num=101;num<=110;num++){
+		inteiro num=101
+		enquanto(num<=110){
 			escreva(num," ")
+			num++
 		}
 	}
 }
@@ -17,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 144; 
+ * @POSICAO-CURSOR = 76; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

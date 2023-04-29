@@ -1,31 +1,27 @@
-// Lista 3 - Exercício 5
+// Lista 3 - Extra 5
 
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro val, num=1
-		val=0
+		inteiro num=1,tab
+		
+		escreva("Tabuada do dois: ","\n")
 
-		enquanto(val<=0){
-			escreva("Informe um valor: ")
-			leia(val)
-		}
-
-		enquanto(num<=val){
-			escreva(num," ")
+		enquanto(num<=10){
+			tab=num*2
+			escreva("2 x ",num," = ",tab,"\n")
 			num++
 		}
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 79; 
+ * @POSICAO-CURSOR = 20; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

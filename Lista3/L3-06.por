@@ -5,12 +5,14 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num,tab
+		inteiro num=1,tab
 		
-		escreva("Tabuada do oito: ")
-		para(num=1;num<=10;num++){
+		escreva("Tabuada do oito: ","\n")
+
+		enquanto(num<=10){
 			tab=num*8
-			escreva(tab," ")
+			escreva("8 x ",num," = ",tab,"\n")
+			num++
 		}
 	}
 }
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 84; 
+ * @POSICAO-CURSOR = 116; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

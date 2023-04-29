@@ -1,31 +1,33 @@
-// Lista 3 - Exercício 5
+// Lista 3 - Extra 4
 
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro val, num=1
-		val=0
+		inteiro blu=0, pomer=0
+		cadeia cid="Blu"
 
-		enquanto(val<=0){
-			escreva("Informe um valor: ")
-			leia(val)
-		}
+		enquanto(cid=="Blu" ou cid=="Pomer"){
+		escreva("Informe a cidade: ")
+		leia(cid)
 
-		enquanto(num<=val){
-			escreva(num," ")
-			num++
+		se(cid=="Blu"){
+			blu++
+		} senao se (cid=="Pomer"){
+			pomer++
+		} 
+
 		}
+		escreva(blu," pessoas são de Blumenau e ",pomer," pessoas são de Pomerode")
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 79; 
+ * @POSICAO-CURSOR = 330; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

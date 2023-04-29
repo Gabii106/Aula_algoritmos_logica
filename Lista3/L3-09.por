@@ -5,10 +5,10 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num,v,valor,out
+		inteiro num,v=1,valor,out
 		num=0
 
-		para(v=1;v<=10;v++){
+		enquanto(v<=10){
 			escreva("Informe um valor: ")
 			leia(valor)
 
@@ -16,7 +16,9 @@ programa
 				{
 					num++
 				} 	
+			v++
 		}
+
           out=10-num
           
 		escreva("Foram informados ",num," entre o intervalo de 10 à 20, e ",out," fora desse intervalo.")
@@ -28,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 218; 
+ * @POSICAO-CURSOR = 261; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

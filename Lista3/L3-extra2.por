@@ -1,31 +1,23 @@
-// Lista 3 - Exercício 5
+// Lista 3 - Extra 2
 
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro val, num=1
-		val=0
-
-		enquanto(val<=0){
-			escreva("Informe um valor: ")
-			leia(val)
-		}
-
-		enquanto(num<=val){
+		inteiro num=99
+		enquanto(num>=95){
 			escreva(num," ")
-			num++
+			num--
 		}
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 79; 
+ * @POSICAO-CURSOR = 90; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

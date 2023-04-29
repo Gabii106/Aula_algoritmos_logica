@@ -5,20 +5,24 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro val, num, tab
-		val=20
+		inteiro val=20, num=1, tab
 	
 		enquanto(val<=0 ou val>10){
 			escreva("Informe um valor: ")
 			leia(val)
 		}
+		
+		limpa()
+		
 		tab=0
 
-		escreva("A tabuada de ",val," é: ")
-		para(num=1;num<=10;num++){
+		escreva("A tabuada do ",val,": \n")
+		enquanto(num<=10){
 			tab=num*val
-			escreva(tab," ")
+			escreva(val," x ",num," = ",tab,"\n")
+			num++
 		}
+			
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 293; 
+ * @POSICAO-CURSOR = 172; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
