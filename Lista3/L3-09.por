@@ -21,7 +21,7 @@ programa
 
           out=10-num
           
-		escreva("Foram informados ",num," entre o intervalo de 10 à 20, e ",out," fora desse intervalo.")
+		escreva("Foram informados ",num," valores entre o intervalo de 10 à 20, e ",out," valores fora desse intervalo.")
 	}
 }
 
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 261; 
+ * @POSICAO-CURSOR = 353; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
