@@ -1,0 +1,21 @@
+package br.com.senai.semestre01;
+
+import java.util.Scanner;
+
+public class HellowEclipse {
+
+	public static void main(String[] args) {
+		System.out.println("Olá Eclipse!!!");
+		Scanner terminal = new Scanner(System.in);
+		System.out.println("Digite seu nome: ");
+		String nome = terminal.nextLine();
+		System.out.println("O nome digitado foi ");
+		System.out.println(nome);
+		terminal.close();
+	}
+
+}
+
+//Main + ctrl + espaço = cria método main
+//sysout + ctrl + espaço = System.out.println();
+//ctrl + espaço tbm serva para importar

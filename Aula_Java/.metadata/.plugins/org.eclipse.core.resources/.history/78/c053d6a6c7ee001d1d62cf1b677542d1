@@ -1,0 +1,31 @@
+package br.com.senai.semestre01;
+
+import java.util.Scanner;
+
+public class HellowEclipse {
+
+	public static void main(String[] args) {
+		
+		//Valor textual para numerico
+		int num = Integer.parseInt("12");
+		double nota = Double.parseDouble("12.5");
+		float outro = Float.parseFloat("21.76");
+		
+		System.out.println("A nota foi "+nota);
+		
+		/*
+		System.out.println("Olá Eclipse!!!");
+		Scanner terminal = new Scanner(System.in);
+		System.out.println("Digite seu nome: ");
+		String nome = terminal.nextLine();
+		System.out.println("O nome digitado foi ");
+		System.out.println(nome);
+		terminal.close();
+		*/
+	}
+
+}
+
+//Main + ctrl + espaço = cria método main
+//sysout + ctrl + espaço = System.out.println();
+//ctrl + espaço tbm serva para importar

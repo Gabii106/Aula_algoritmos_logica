@@ -1,0 +1,13 @@
+package br.com.senai.semestre01;
+
+public class HellowEclipse {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Olá Eclipse");
+	}
+
+}
+
+//Main + ctrl + espaço = cria método main
+//sysout + ctrl + espaço = System.out.println();
