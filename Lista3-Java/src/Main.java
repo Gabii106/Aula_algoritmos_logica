@@ -108,6 +108,7 @@ public class Main {
         //switch ()
     }
 
+
     public static void exe1(){
         System.out.println("Versão 1 - Exercício 1");
         System.out.println();
@@ -117,6 +118,8 @@ public class Main {
         for (num=1;num<=10;num++){
             System.out.print(num+" ");
         }
+        System.out.println();
+
     }
 
     public static void exe1v2(){
