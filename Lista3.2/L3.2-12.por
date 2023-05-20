@@ -1,33 +1,22 @@
-// Lista 3.2 - Exercício 9
+// Lista 3.2 - Exercício 12
 
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro n=0, valor, maior=0, menor=0
-
-		enquanto(n < 50){
-			
+		inteiro v=0, n, multi=0
+		
+		enquanto(v<20){
 			escreva("Informe um valor: ")
-			leia(valor)
+			leia(n)
 
-			se( n==0 ) {
-				maior = valor
-				menor = valor
+			para(inteiro num=1;num<=n;num++){
+				multi = num * n
+				escreva(num," x ",n," = ",multi,"\n")
 			}
-
-			se(n > 0 e valor > maior){
-				maior = valor
-			}
-
-			se(n > 0 e valor < menor){
-				menor = valor
-			}
-
-			n++
+			v++
 		}
-		escreva("O maior valor informado é ",maior," e o menor é ",menor)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -35,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 118; 
+ * @POSICAO-CURSOR = 262; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
