@@ -4,7 +4,7 @@ public class Main {
 
     public static Scanner leitor = new Scanner(System.in);
     public static void main(String[] args) {
-        exe8();
+        exe9();
     }
 
     public static void exe1(){
@@ -188,5 +188,30 @@ public class Main {
 
         System.out.println("Média dos números pares: "+med);
 
+    }
+
+    public static void exe9(){
+        int maior=0, menor=0;
+
+
+        for (int n=0;n<5;n++){
+            System.out.print("Informe um valor: ");
+            int valor = leitor.nextInt();
+
+            if(n==0){
+                maior = valor;
+                menor = valor;
+            }
+
+            if(valor > maior){
+                maior = valor;
+            }
+
+            if (valor < menor){
+                menor = valor;
+            }
+        }
+
+        System.out.println("O maior valor informado foi "+maior+" e o menor foi "+menor);
     }
 }
