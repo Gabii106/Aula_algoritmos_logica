@@ -13,6 +13,8 @@ programa
 			B[n] = num
 		}
 
+		escreva("Valores informados: ")
+
 		para(inteiro a = 0; a <10; a++){
 			se (a ==9){
 				escreva(B[a], "\n")
@@ -28,7 +30,7 @@ programa
 
 		para(inteiro b = 0; b <10; b++){
 			se(B[b] % valor == 0){
-				escreva(B[b],"  ")
+				escreva(B[b]," , ")
 			}
 		}
 		
@@ -39,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 529; 
+ * @POSICAO-CURSOR = 560; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,38 +1,34 @@
-//Lista Vetores 2 -Exercício 2
+//Matriz - Exemplo 4
 
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num[100]
+		cadeia patchon[4][4]
 
-		para(inteiro i = 0; i <100; i++){
-			num[i] = (i+1)
-		}
+		para (inteiro linha = 0; linha < 4; linha++){
+			para (inteiro coluna = 0; coluna < 4 ;coluna++){
 
-		escreva("Valores armazenados: ")
-
-		para(inteiro i = 0; i <100; i++){
-
-			se(i == 99){
-				escreva(num[i])
-			} senao {
-				escreva(num[i], ", ")
+				se(linha % 2 == 0){
+					patchon[linha][coluna] = "Chopps"
+				} senao{
+					patchon[linha][coluna] = "Torresmo"
+				}
 			}
-			
 		}
+
+		
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 178; 
+ * @POSICAO-CURSOR = 20; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 8, 10, 3};
+ * @SIMBOLOS-INSPECIONADOS = {patchon, 8, 9, 7};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

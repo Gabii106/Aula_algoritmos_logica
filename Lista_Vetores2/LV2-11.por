@@ -1,38 +1,39 @@
-//Lista Vetores 2 -Exercício 2
+//Lista Vetores 2 - Exercício 11
 
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num[100]
+		real V[10], valor
 
-		para(inteiro i = 0; i <100; i++){
-			num[i] = (i+1)
+		para(inteiro i = 0; i < 10; i++){
+			escreva("Informe um número: ")
+			leia(valor)
+			V[i] = (valor/2)
+			
 		}
 
-		escreva("Valores armazenados: ")
+		escreva("Metade dos valores informados: ")
 
-		para(inteiro i = 0; i <100; i++){
-
-			se(i == 99){
-				escreva(num[i])
-			} senao {
-				escreva(num[i], ", ")
+		para(inteiro i = 0; i < 10; i++){
+			se(i==9){
+				escreva(V[i])
 			}
-			
+			senao{
+				escreva(V[i]," , ")
+			}
 		}
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 178; 
+ * @POSICAO-CURSOR = 244; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 8, 10, 3};
+ * @SIMBOLOS-INSPECIONADOS = {V, 8, 7, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

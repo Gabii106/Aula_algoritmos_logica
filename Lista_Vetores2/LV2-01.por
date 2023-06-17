@@ -11,6 +11,8 @@ programa
 			num[i] = i
 		}
 
+		escreva("Valores armazenados: ")
+
 		para(inteiro i = 0; i <51; i++){
 
 			se(i == 50){
@@ -27,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 273; 
+ * @POSICAO-CURSOR = 170; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

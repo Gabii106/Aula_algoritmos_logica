@@ -1,38 +1,34 @@
-//Lista Vetores 2 -Exercício 2
+//Matriz - Exemplo 1
 
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num[100]
 
-		para(inteiro i = 0; i <100; i++){
-			num[i] = (i+1)
-		}
-
-		escreva("Valores armazenados: ")
-
-		para(inteiro i = 0; i <100; i++){
-
-			se(i == 99){
-				escreva(num[i])
-			} senao {
-				escreva(num[i], ", ")
+		inteiro matriz[5][5],valor=0
+		
+		para (inteiro linha = 0; linha < 5; linha++)
+		{
+			para (inteiro coluna = 0; coluna < 5 ; coluna++)
+			{
+				escreva("Digite um valor: ")
+				leia(valor)
+				matriz[linha][coluna]=valor
+				
 			}
-			
-		}
+		}		
 	}
-}
 
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 178; 
+ * @POSICAO-CURSOR = 227; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 8, 10, 3};
+ * @SIMBOLOS-INSPECIONADOS = {matriz, 9, 10, 6};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

@@ -16,7 +16,7 @@ programa
 				maior = num[i]
 			}
 
-			se(valor > maior){
+			se(num[i] > maior){
 				maior = num[i]
 				posi = i
 			}
@@ -30,9 +30,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 30; 
+ * @POSICAO-CURSOR = 261; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 8, 10, 3};
+ * @SIMBOLOS-INSPECIONADOS = {num, 8, 10, 3}-{valor, 8, 18, 5}-{maior, 8, 25, 5}-{posi, 8, 34, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

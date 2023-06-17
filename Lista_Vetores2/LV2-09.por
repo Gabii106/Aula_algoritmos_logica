@@ -1,38 +1,40 @@
-//Lista Vetores 2 -Exercício 2
+//Lista Vetores 2 -Exercício 9
 
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num[100]
-
-		para(inteiro i = 0; i <100; i++){
-			num[i] = (i+1)
+		inteiro A[10], valor, b=0
+		
+			para(inteiro num =1; num<=20; num++){
+			se(num % 2 == 1 ){
+				A[b] = (num * num)
+				b++
+			}
 		}
 
-		escreva("Valores armazenados: ")
+		escreva("Qquadrado dos números ímpares: ")
 
-		para(inteiro i = 0; i <100; i++){
-
-			se(i == 99){
-				escreva(num[i])
-			} senao {
-				escreva(num[i], ", ")
+		para(inteiro i = 0; i < 10; i++){
+			se(i==9){
+				escreva(A[i])
+			} 
+			senao{
+				escreva(A[i], ", ")
 			}
 			
 		}
 	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 178; 
+ * @POSICAO-CURSOR = 349; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {num, 8, 10, 3};
+ * @SIMBOLOS-INSPECIONADOS = {A, 8, 10, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
